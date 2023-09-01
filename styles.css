@@ -11,9 +11,23 @@ header {
     width: 100px;
     flex-direction: column;
 }
-.weather{
+.info-container{
     width: 100%;
     display: flex;
     margin: auto;
     
+}
+.news-data{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+}
+footer{
+    width: 200px;
+    background-color: grey;
+    padding: 30px;
 }
