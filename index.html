@@ -8,52 +8,62 @@
         <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
-        <nav>
-            <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>Weather</li></a>
-                <a href=""><li>News</li></a>
-            </ul>
-        </nav>
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <div class="nav-link" id="nav-selected"><a href=""><li>Home</li></a></div>
+                    <div class="nav-link"><a href=""><li>Weather</li></a></div>
+                    <div class="nav-link"><a href=""><li>News</li></a></div>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-card">
         <header>Latest Weather</header>
+        <div class="card">
         <h1>Weather Summary</h1>
         <h2>Salt Lake City</h2>
         
-        <main>
+        
             <h3>Currently: Partly Cloudy</h3>
             <h3>Tempature: 93 F</h3>
             <h3>Feels like: 90 F</h3>
             <h3>Humidity: 25%</h3>
             <h3>Wind Speed: N 8 MPH</h3>
-            <h3>5 Day Forecast</h3>
+            
+            <img style="width: 600px;" src="https://media.istockphoto.com/id/1319088616/photo/man-resting-h-after-exercise-and-drinking-water.jpg?s=612x612&w=0&k=20&c=xxwtfPVppL7jkmfag-wDyy-BXCJJhThr6B4tHOZx7jU=" alt="">
+        </div>
+        <div class="card" style="height: 400px">
+            <header>5 Day Forecast</header>
             <div class="info-container">
                 <div class="weather-data">
-                    <h2>Day 1</h2>
-                    <h3>76 F</h3>
+                    <h2>Monday</h2>
                     <img src="/Images/cloud048.png" alt="">
-                </div>
-                <div class="weather-data">
-                    <h2>Day 2</h2>
-                    <h3>80 F</h3>
-                    <img src="/Images/icons8-cloud-lightning-48.png" alt="">
-                </div>
-                <div class="weather-data">
-                    <h2>Day 3</h2>
-                    <h3>81 F</h3>
-                    <img src="/Images/icons8-partly-cloudy-day-48.png" alt="">
-                </div>
-                <div class="weather-data">
-                    <h2>Day 4</h2>
-                    <h3>79 F</h3>
-                    <img src="/Images/icons8-cloud-lightning-48.png" alt="">
-                </div>
-                <div class="weather-data">
-                    <h2>Day 5</h2>
                     <h3>76 F</h3>
+                </div>
+                <div class="weather-data">
+                    <h2>Tuesday</h2>
                     <img src="/Images/icons8-cloud-lightning-48.png" alt="">
+                    <h3>80 F</h3>
+                </div>
+                <div class="weather-data">
+                    <h2>Wednesday</h2>
+                    <img src="/Images/icons8-partly-cloudy-day-48.png" alt="">
+                    <h3>81 F</h3>
+                </div>
+                <div class="weather-data">
+                    <h2>Thursday</h2>
+                    <img src="/Images/icons8-cloud-lightning-48.png" alt="">
+                    <h3>79 F</h3>
+                </div>
+                <div class="weather-data">
+                    <h2>Friday</h2>
+                    <img src="/Images/icons8-cloud-lightning-48.png" alt="">
+                    <h3>76 F</h3>
                 </div>
             </div>
+        </div>
             <h1>Latest News</h1>
+            <div class="card">
             <div class="info-container">
                 <div class="news-data"><img src="" alt="main article">
                     <p>No article description.</p>
@@ -72,7 +82,8 @@
                     <img src="/Images/kitten.png" alt="">
                 </div>
             </div>
-        </main>
+        </div>
+    </div>
         <footer>C 2023 | Trevor Childs | Tooele Technical College <br> last updated </footer>
     </body>
 </html>

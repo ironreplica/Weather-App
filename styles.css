@@ -31,3 +31,71 @@ footer{
     background-color: grey;
     padding: 30px;
 }
+body{
+    background-color: gray;
+}
+/* new styles */
+.nav-bar{
+    width: 100%;
+    height: auto;
+    background-color: lightgrey ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.nav-bar nav{
+    width: 100%;
+}
+.nav-bar ul{
+    display: flex;
+    padding: none;
+    margin: none;
+}
+.nav-bar ul a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar ul li{
+    list-style-type: none;
+}
+.nav-link{
+    text-align: center;
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#nav-selected{
+    background-color: rgba(0, 247, 255, 0.637);
+}
+
+.main-card{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.main-card header{
+    text-decoration: none;
+    font-weight: bold;
+}
+.card{
+    box-shadow: 5px 5px 5px gray;
+    justify-content: center;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+}
+footer{
+    margin: 0 auto;
+}
